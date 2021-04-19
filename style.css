@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+}
+ul {
+  font-size: 1.5em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: #052b3d;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: white;
+  margin-bottom: 1em;
+  text-decoration: none;
+  max-width: fit-content;
+}
+li a:hover {
+  background-color: white;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #052b3d;
+  color: #052b3d;
+}
+body {
+  background-color: #052b3d;
+}
+.logo img {
+  max-width: 300px;
+}
+.home {
+  grid-area: home;
+}
+.analysis {
+  grid-area: analysis;
+}
+.guide {
+  grid-area: guide;
+}
+.demo {
+  grid-area: demo;
+}
+.logo {
+  margin: auto;
+  grid-area: logo;
+}
+.navbar {
+  margin: auto;
+}
+.mainsec {
+  margin: auto;
+  text-align: block;
+  color: white;
+  max-width: 400px;
+}
+.mainsec h3,
+.mainsec h1 {
+  text-align: center;
+}
+.wrapper {
+  display: grid;
+}
+.subsec {
+  margin: auto;
+}
+.subsec img {
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 750px) {
+  .wrapper {
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "logo home"
+      "analysis analysis"
+      "guide guide"
+      "demo demo"
+      "mainsec subsec";
+  }
+}
+@media (max-width: 750px) {
+  .wrapper {
+    grid-template-areas:
+      "logo"
+      "home"
+      "analysis"
+      "guide"
+      "demo"
+      "mainsec"
+      "subsec";
+  }
+  iframe {
+    max-width: 315px;
+  }
+}
