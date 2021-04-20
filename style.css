@@ -55,10 +55,11 @@ body {
   margin: auto;
 }
 .mainsec {
-  margin: auto;
   text-align: block;
   color: white;
-  max-width: 400px;
+}
+.mainsec p {
+  max-width: auto;
 }
 .mainsec h3,
 .mainsec h1 {
@@ -70,9 +71,13 @@ body {
 .subsec {
   margin: auto;
 }
-.subsec img {
-  max-width: 300px;
+.mainsec div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
   margin-bottom: 2rem;
+  align-items: right;
 }
 
 @media (min-width: 750px) {
@@ -84,7 +89,10 @@ body {
       "analysis analysis"
       "guide guide"
       "demo demo"
-      "mainsec subsec";
+      "mainsec mainsec";
+  }
+  .mainsec {
+    margin-left: 142.06px;
   }
 }
 @media (max-width: 750px) {
