@@ -33,9 +33,7 @@ body {
   background-color: #052b3d;
 }
 .logo img {
-  display: block;
   max-width: 300px;
-  margin-left: 142.06px;
 }
 .home {
   grid-area: home;
@@ -98,6 +96,10 @@ iframe {
       "subsec subsec";
   }
   .mainsec {
+    margin-left: 142.06px;
+  }
+  .logo img {
+    display: block;
     margin-left: 142.06px;
   }
 }
