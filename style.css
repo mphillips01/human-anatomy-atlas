@@ -20,9 +20,16 @@ ul {
   border-color: white;
   margin-bottom: 1em;
   text-decoration: none;
-  max-width: fit-content;
+  max-width: 142.06px;
 }
 li a:hover {
+  background-color: white;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: #052b3d;
+  color: #052b3d;
+}
+.navbar .current {
   background-color: white;
   border-style: solid;
   border-radius: 2em;
@@ -56,6 +63,10 @@ body {
 }
 .mainsec {
   text-align: block;
+  color: white;
+}
+.subsec {
+  text-align: center;
   color: white;
 }
 .mainsec p {
