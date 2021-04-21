@@ -28,7 +28,7 @@ body {
   background-color: #052b3d;
 }
 .logo img {
-  max-width: 300px;
+  max-width: 600px;
 }
 .home {
   grid-area: home;
@@ -146,7 +146,7 @@ iframe {
   .navbar h1 {
     margin-bottom: 0.25em;
   }
-  .logo img {
+  img {
     max-width: 256px;
   }
 }
