@@ -74,7 +74,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 300px;
   margin-bottom: 2rem;
   align-items: right;
 }
@@ -93,6 +92,9 @@ iframe {
       "demo demo"
       "mainsec mainsec"
       "subsec subsec";
+  }
+  .mainsec div img {
+    max-width: 192px;
   }
   .mainsec {
     margin-left: 142.06px;
@@ -147,9 +149,9 @@ iframe {
     margin-bottom: 0.25em;
   }
   .logo img {
-    max-width: 256px;
+    max-width: 192px;
   }
   .mainsec img {
-    max-width: 256px;
+    max-width: 192px;
   }
 }
