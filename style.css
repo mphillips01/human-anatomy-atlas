@@ -39,9 +39,6 @@ body {
 .guide {
   grid-area: guide;
 }
-.demo {
-  grid-area: demo;
-}
 .logo {
   margin: auto;
   grid-area: logo;
@@ -89,7 +86,6 @@ iframe {
       "logo home"
       "analysis analysis"
       "guide guide"
-      "demo demo"
       "mainsec mainsec"
       "subsec subsec";
   }
@@ -124,7 +120,6 @@ iframe {
       "home"
       "analysis"
       "guide"
-      "demo"
       "mainsec"
       "subsec";
   }
